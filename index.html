@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+     <!-- Header Starts Here -->
+     <header id="header">
+        <nav class="menu">
+            <a href="#" class="logo">Form Logo</a>
+            <div class="menu-items">
+                <ul class="navigation">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">testimonials</a></li>
+                </ul>
+                <div class="nav-btn">
+                    <a href="#">contact us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends Here -->
+    <!-- Forms Starts-->
+    <!-- Registration Form -->
+    <div class="container">
+        <h2>create an account</h2>
+        <p>enter all text fields to complete registration</p>
+        <form action="#" class="contact-form">
+            <label for="uname">Username</label>
+            <input type="text" id="uname" required>
+            <div class="pword">
+                <label for="pw">Password</label>
+                <input type="password" id="pw" required>
+            </div>
+            <div class="cpword">
+                <label for="cpw">Confirm Password</label>
+                <input type="password" id="cpw" required>
+            </div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <div class="fname">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" required>
+            </div>
+            <div class="lname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" required>
+            </div>
+            <input type="submit" value="Register">
+            <p>already have an acconnt? <a href="#">Sign in</a></p>
+        </form>
+    </div>
+    <!-- Login Form -->
+    <div class="login-container">
+        <h1>user login</h1>
+        <form action="#" class="contact-form1">
+            <label for="uid">User Id</label>
+            <input type="text" placeholder="User Id" id="uid" required>
+            <label for="pword">Password</label>
+            <input type="password" placeholder="Password" id="pword" required>
+            <input type="submit" value="Login">
+           <a href="#">Forget Password?</a>
+        </form>
+        <h2>Login with</h2>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i>facebook</a></li>
+            <li><a href="#"><i class="fab fa-google"></i>google</a></li>
+        </ul>
+    </div>
+    <!-- Contact Form -->
+    <div class="contact-container">
+        <h1>contact us</h1>
+        <form action="#" class="contact-form2">
+            <label for="name">Name *</label>
+            <input type="text" placeholder="Name" id="name" required>
+            <label for="cname">Company name *</label>
+            <input type="text" placeholder="Company Name" id="cname" required>
+            <label for="email-address">Email Address *</label>
+            <input type="email" placeholder="Email Address" id="email-address" required>
+            <label for="tel">Phone Number *</label>
+            <input type="tel" placeholder="Phone Number" id="tel" required>
+            <label for="msg">Your Message *</label>
+            <textarea id="msg" cols="30" rows="10" placeholder="Write your message......."></textarea>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
